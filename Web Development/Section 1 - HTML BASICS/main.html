@@ -1,0 +1,144 @@
+<!-- Always start the webpage with <html> tag and doctype to specify HTML5 -->
+<!DOCTYPE html>
+
+<!-- Head Tag is the second tag in the structure it is required by the browser to set various properties-->
+
+<head>
+    <title>Section 1 - HTML BASICS</title> <!-- Adds a title to webpage-->
+    <meta charset="UTF-8">
+    <!-- The Google Search Engine Bot searches through these words-->
+    <meta name='description' content='Web Development - HTML Basics'>
+    <meta name='keywords' content='html5,css,web development,coding'>
+    <meta name='author' content='Rajmeet Singh Chandok'>
+</head>
+
+<body>
+    <center>
+        <h1>SECTION 1 - HTML BASICS</h1>
+    </center>
+    <!-- Body tag is where all the HTML Magic happens -->
+    <div class='List of Headings'>
+        <!-- DIV or division is the most used tag, it is the perfect way to divide pages-->
+        <h1><b>HEADINGS</b></h1>
+        <!-- Headings for pages are given by h1,h2,h3 and h4 tags-->
+        <h1>Heading 1</h1>
+        <h2>Heading 2</h2>
+        <h3>Heading 3 </h3>
+        <h4>Heading 4</h4>
+    </div><br> <!-- br is used for line break -->
+    <hr> <!-- Horizontal Break-->
+    <div class='Tags'>
+        <h1>TAGS</h1>
+
+        <b>BOLD</b>
+        <br>
+        <i>Italics</i>
+        <br>
+        <a href="#">Link</a>
+        <p>Paragraph Tag</p>
+    </div>
+    <hr>
+    <div class='Lists'>
+        <h1>LISTS</h1>
+
+        <ol>
+            <!-- ol stands for ordered list, ul stands for unordered list, and li stands for list item-->
+            <li>
+                List Item 1
+            </li>
+            <li>
+                List Item 2
+                <ul>
+                    <li>
+                        Item 2(a)
+                    </li>
+                    <li>
+                        Item 2(b)
+                    </li>
+                </ul>
+            </li>
+            <li>
+                List Item 3
+            </li>
+        </ol>
+    </div>
+    <hr>
+    <div class='Most HTML Tags'>
+        <h1>Common Tags</h1>
+        <!-- Sections are used to divide into various parts inside a div-->
+        <section id='image'>
+            <!-- id or name attribute is used to identify by css or js-->
+            <h3>Image Tag</h3>
+            <img src="image.png" alt="center" height='200px' width='200px'>
+        </section>
+        <br>
+        <section id='form'>
+            <!-- 
+                Attributes/Terminology:
+                GET AND POST
+                    Difference between GET AND POST
+                    GET sends all the values with the url while POST hides them hence sensitive data 
+                    is sent using the POST METHOD
+                   
+                NAME, ID - Used for identification
+                PLACEHOLDER - Text that comes on top of the box to make it easier for the client
+                TYPE - Defines the type of input : 
+                    TEXT, PASSWORD, CHECKBOX, RADIO, SUBIMT ETC
+            -->
+            <h3>Form Tag</h3>
+            <form method='GET' action='#'>
+
+                <input name='Name' placeholder='Name' type="text"><br>
+                <input name='Address' placeholder='Address' type="text"><br>
+                <input type='password' placeholder='password' name='password'><br>
+                <br>
+                <span>GENDER</span> <br>
+                <input name='gender' type='radio'>Male
+                <br>
+                <input name='gender' type='radio'>Female
+                <br><br>
+                <span>AGE</span>
+                <select name="age">
+                    <option>1-18</option>
+                    <option>19-35</option>
+                    <option>35-50</option>
+                    <option>50-65</option>
+                    <option>65+</option>
+                </select>
+                <br><br>
+                <button type='submit'>SUMBIT</button>
+            </form>
+        </section>
+        <br><br>
+        <section id='video'>
+            <h3>Video Tag</h3>
+            <video controls>
+                <!-- other attributes could be width and size-->
+                <source src='video.mp4' type='video/mp4'>
+                Your browser does not support HTML5
+                <!-- This is displayed only when video is not played-->
+            </video>
+        </section>
+        <br><br>
+        <section id='audio'>
+            <h3>Audio</h3>
+            <audio controls>
+                <!-- Controls- Control to audio, Autoplay - Automatically Plays, Loop - Loop -->
+                <source src='audio.mp3' type='audio/mp3'>
+            </audio>
+        </section>
+    </div>
+
+
+    <hr>
+    <center>
+        <footer>&copy; Copyright 2020
+            <!-- Footer is used to define the page ending -->
+            <br>
+            <span>Rajmeet Singh Chandok</span>
+        </footer>
+    </center>
+
+</body>
+
+</html>
