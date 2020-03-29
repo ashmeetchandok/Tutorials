@@ -1,1 +1,1 @@
-# Web Development - HTML, CSS, JAVASCRIPT AND JQUERY
+# Web Development - HTML, CSS, JS AND JQUERY
