@@ -1,1 +1,1 @@
-# Web Development
+# Web Development Course - HTML, CSS, JS, JQUERY
